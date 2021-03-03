@@ -243,6 +243,9 @@ type PairHourData @entity {
   # derived liquidity
   reserveUSD: BigDecimal!
 
+  # total supply for LP historical returns
+  totalSupply: BigDecimal!
+
   # volume stats
   hourlyVolumeToken0: BigDecimal!
   hourlyVolumeToken1: BigDecimal!
